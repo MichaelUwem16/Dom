@@ -1,0 +1,24 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Hero text shadow for readability */
+header,
+section {
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Override footer text */
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Buttons hover effect */
+.btn:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
